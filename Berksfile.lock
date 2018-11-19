@@ -1,7 +1,7 @@
 DEPENDENCIES
   aqha-chef-solo-bootstrap
     git: https://github.com/sbwise01/aqha-chef-solo-bootstrap.git
-    revision: ea2641ee5ea92831ae4400b8b5d177d609fc259c
+    revision: 64f7522a2f55d7ec3a031bffa3216ceca8c287e4
     branch: master
   aqha-example-web-app
     git: https://github.com/sbwise01/aqha-example-web-app.git

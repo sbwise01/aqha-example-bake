@@ -17,7 +17,7 @@
         "region": "{{user `aws_region`}}",
         "profile": "{{user `aws_profile`}}",
         "ssh_username": "{{user `os`}}",
-        "ami_name": "aqha-example-web-app-{{user `os_type`}}-{{user `os`}}-{{isotime \"20060102\"}}",
+        "ami_name": "aqha-example-web-app-{{isotime \"200601020304\"}}",
         "instance_type": "{{user `aws_instance_type`}}",
         "source_ami_filter": {
           "filters": {
