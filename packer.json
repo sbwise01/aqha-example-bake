@@ -29,6 +29,14 @@
           "most_recent": true
         },
         "subnet_id": "{{user `aws_subnet_id`}}",
+        "launch_block_device_mappings": [
+          {
+          "device_name": "/dev/sda1",
+          "volume_size": 40,
+          "volume_type": "gp2",
+          "delete_on_termination": true
+          }
+        ],
         "tags": {
           "OS": "{{user `os_type`}}",
           "Release": "{{isotime \"20060102\"}}",
