@@ -1,5 +1,5 @@
 # aqha-example-bake
-A packer based bake of aqha-example-web-app into an AWS machine image.
+A packer based bake of aqha-example-web-app-cookbook into an AWS machine image.
 
 ## Bake steps
 1. Run `berks vendor chef/cookbooks` to download all cookbooks to local directory
