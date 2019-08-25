@@ -4,7 +4,7 @@ DEPENDENCIES
     revision: ddc90ac55665c2222cc9292547cb77a318505228
     branch: master
   aqha-example-web-app
-    git: https://github.com/sbwise01/aqha-example-web-app.git
+    git: https://github.com/sbwise01/aqha-example-web-app-cookbook.git
     revision: 1c3d22840805e517fdf8ad63bcd21b2604afc5ad
     branch: master
 
