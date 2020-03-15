@@ -19,6 +19,7 @@
         "ssh_username": "{{user `os`}}",
         "ami_name": "aqha-example-web-app-{{isotime \"200601020304\"}}",
         "instance_type": "{{user `aws_instance_type`}}",
+        "source_ami": "ami-01ed306a12b7d1c96",
         "source_ami_filter": {
           "filters": {
           "virtualization-type": "hvm",
